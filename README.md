@@ -1,5 +1,5 @@
 # morkie-react
-The beloved <marquee> reimagined in React
+The beloved `<marquee>` reimagined in React
 
 # Installation
 `npm install morkie-react`
