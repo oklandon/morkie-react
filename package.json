@@ -1,0 +1,33 @@
+{
+  "name": "morkie-react",
+  "version": "1.0.2",
+  "description": "react marquee with styled components",
+  "main": "lib/morkie-react.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel src --out-dir lib --source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oklandon/morkie-react.git"
+  },
+  "author": "Landon Young",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/oklandon/morkie-react/issues"
+  },
+  "homepage": "https://github.com/oklandon/morkie-react#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-1": "^6.16.0"
+  },
+  "peerDependencies": {
+    "react": ">=15",
+    "styled-components": ">=2"
+  },
+  "dependencies": {
+    "babel": "^6.23.0"
+  }
+}
